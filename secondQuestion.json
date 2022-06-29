@@ -1,0 +1,78 @@
+{
+    "payload": {
+        "preguntaId": 13,
+        "numeroSeccion": 2,
+        "esOpcional": false,
+        "tipoComponente": 11,
+        "pregunta": "¿Qué tipo de protección buscas?",
+        "alternativas": [
+            {
+                "etiquetaMarca": "Total",
+                "iconUrl": "https://d6p5czf5s70vi.cloudfront.net/App-nativa/Iconos/mic_health_total.png?alt=media",
+                "titulo": "Total",
+                "codigo": 1,
+                "descripcion": "Valoro tener un seguro ante toda eventualidad y por precaución.",
+                "bloqueaAlternativas": false
+            },
+            {
+                "etiquetaMarca": "Media",
+                "iconUrl": "https://d6p5czf5s70vi.cloudfront.net/App-nativa/Iconos/mic_health_media.png?alt=media",
+                "titulo": "Media",
+                "codigo": 2,
+                "descripcion": "Quiero un seguro que me dé tranquilidad y permita ahorrar.",
+                "bloqueaAlternativas": false
+            },
+            {
+                "etiquetaMarca": "Basica",
+                "iconUrl": "https://d6p5czf5s70vi.cloudfront.net/App-nativa/Iconos/mic_health.png?alt=media",
+                "titulo": "Básica",
+                "codigo": 3,
+                "descripcion": "Me gusta ahorrar, por lo que prefiero elegir dónde y cómo me atiendo.",
+                "bloqueaAlternativas": false
+            }
+        ],
+        "informacion": "",
+        "enlaceInfoAdicional": "",
+        "infoAdicional": {
+            "titulo": "",
+            "descripcion": "",
+            "nombreBoton": ""
+        },
+        "descripcion": "",
+        "orden": 2,
+        "etiqueta": {
+            "accion": {
+                "grupo": "Comprar Seguros",
+                "categoria": "Perfilador de Salud",
+                "nombre": "Tipo de Proteccion",
+                "marca": ""
+            },
+            "captura": {
+                "categoria": "Comprar Seguros",
+                "subcategoria": "Perfilador de Salud"
+            },
+            "metadata": {
+                "clave": "",
+                "valor": ""
+            },
+            "flujoEstado": "Comprar Seguros:Perfilador de Salud:Tipo de Proteccion"
+        },
+        "respuesta": {
+            "valor": 0,
+            "unidadMedida": "",
+            "alternativas": [
+                {
+                    "codigo": 0
+                }
+            ]
+        },
+        "completado": false,
+        "dataBarraProgreso": {
+            "secciones": 4,
+            "seccionActual": 2,
+            "preguntasPorSeccion": 1,
+            "preguntasCompletadas": 0,
+            "descripcion": ""
+        }
+    }
+}
